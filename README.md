@@ -14,11 +14,12 @@ Open terminal(linux/mac)/command prompt(windows)
 Run aws configure
 Provide the access key, secret key
 
-2. Setup 2-tier Infrastructure:
+
+2. two-tier Infrastructure diagram in file name - "2-tier-Infrastructure.JPG"
+
+3. Setup 2-tier Infrastructure:
 Open terminal(linux)/command prompt(windows)
 
 Run terraform init command
-
 Run terraform apply command. 
-
 Provide yes as input when asked and hit enter
