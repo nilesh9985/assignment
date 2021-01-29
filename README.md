@@ -23,3 +23,8 @@ Open terminal(linux)/command prompt(windows)
 Run terraform init command
 Run terraform apply command. 
 Provide yes as input when asked and hit enter
+
+
+Cidr Range - 
+Public Subnet - 10.0.1.0/24 & 10.0.2.0/24
+Private subnet - 10.0.3.0/24 & 10.0.4.0/24
