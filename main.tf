@@ -17,7 +17,7 @@ module "vpc" {
 
 module "ec2" {
   source         = "./ec2"
-  my_public_key  = "C:\\Users\\Nilesh\\21_days_of_aws_using_terraform\\test.pem"
+  my_public_key  = "<Public Key>"
   instance_type  = "t2.micro"
   security_group = module.vpc.security_group
   subnets        = module.vpc.public_subnets
